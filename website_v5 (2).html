@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rujuta Karekar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--m:#6b2d3e;--ml:#8a3f54;--mf:rgba(107,45,62,.06);--g:#3d5e4a;--gf:rgba(61,94,74,.07);--gm:rgba(61,94,74,.03);--t:#2c2825;--tm:#7a706a;--tl:#a39990;--bd:#e4ddd6;--bg:#faf8f5}
+*{margin:0;padding:0;box-sizing:border-box}
+::selection{background:rgba(107,45,62,.12)}
+body{font-family:'Cormorant Garamond',Georgia,serif;background:var(--bg);color:var(--t);line-height:1.7;background-image:radial-gradient(ellipse at 15% 0%,rgba(61,94,74,.035) 0%,transparent 50%),radial-gradient(ellipse at 85% 100%,rgba(107,45,62,.025) 0%,transparent 50%);min-height:100vh}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;transition:all .4s;background:transparent;border-bottom:1px solid transparent}
+nav.scrolled{background:rgba(250,248,245,.92);backdrop-filter:blur(12px);border-bottom-color:var(--bd)}
+.ni{max-width:960px;margin:0 auto;padding:16px 28px;display:flex;align-items:center;justify-content:space-between}
+.nn{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:var(--m);letter-spacing:-.02em;background:0;border:0;cursor:pointer;padding:0}
+.nl{display:flex;gap:24px}
+.nl button{background:0;border:0;cursor:pointer;padding:4px 0;font-family:'DM Sans',sans-serif;font-size:12px;font-weight:400;color:var(--tm);letter-spacing:.05em;text-transform:uppercase;border-bottom:2px solid transparent;transition:all .3s}
+.nl button.a{font-weight:600;color:var(--m);border-bottom-color:var(--m)}
+.nl button:hover{color:var(--m)}
+.mt{display:none;background:0;border:0;font-size:22px;color:var(--m);cursor:pointer}
+.mm{display:none;background:rgba(250,248,245,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--bd);padding:8px 28px 16px}
+.mm button{display:block;width:100%;text-align:left;background:0;border:0;cursor:pointer;padding:10px 0;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--tm)}
+.mm button.a{color:var(--m);font-weight:600}
+@media(max-width:640px){.nl{display:none}.mt{display:block}.mm.open{display:block}}
+main{max-width:720px;margin:0 auto;padding:120px 28px 60px}
+.pg{display:none}.pg.on{display:block}
+h1{font-family:'Cormorant Garamond',serif;font-size:38px;font-weight:500;color:var(--m);letter-spacing:-.02em;margin-bottom:20px}
+h2{font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;color:var(--g);text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px;margin-top:32px}
+h2.mr{color:var(--m)}
+h3{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;color:var(--t);margin-bottom:6px}
+p{margin-bottom:16px;font-size:18px}
+p.mu{color:var(--tm)}p.lt{color:var(--tl);font-size:16px}
+p.sm{font-family:'DM Sans',sans-serif;font-size:13px;color:var(--tl)}
+strong{font-weight:600}.gr{color:var(--g)}.mr{color:var(--m)}
+.lb{font-family:'DM Sans',sans-serif;font-size:11px;font-weight:600;color:var(--g);text-transform:uppercase;letter-spacing:.1em;margin-bottom:12px}
+.dv{width:40px;height:2px;background:var(--m);opacity:.3;margin:36px 0}
+.tl{border-bottom:1px solid var(--bd);margin:16px 0}
+.hb{background:var(--gf);border-left:4px solid var(--g);border-radius:0 8px 8px 0;padding:22px 26px;margin-bottom:28px}
+.hb p{margin-bottom:0;font-size:18px;color:var(--t)}
+.qb{border-left:3px solid var(--m);padding-left:20px;margin:28px 0}
+.qb p{font-style:italic;color:var(--ml);font-size:17px;margin-bottom:0}
+.cb{background:var(--gm);border:1px solid rgba(61,94,74,.1);border-radius:8px;padding:20px 24px;margin-top:32px}
+.cb p{color:var(--g);font-size:17px;margin-bottom:0}
+.tg{display:inline-block;font-family:'DM Sans',sans-serif;font-size:10px;font-weight:600;color:#fff;background:var(--m);padding:3px 10px;border-radius:12px;text-transform:uppercase;letter-spacing:.06em;margin-right:8px}
+.qr{display:flex;gap:12px;align-items:flex-start;margin-bottom:10px}
+.qm{font-size:20px;color:var(--m);margin-top:-2px;flex-shrink:0}
+.qr p{margin-bottom:0;font-size:17px;color:var(--tm)}
+.wi{padding:18px 0;border-bottom:1px solid var(--bd)}.wi:last-child{border-bottom:0}
+.wt{font-size:18px;font-weight:600;color:var(--t);margin-bottom:4px}
+.wc{font-family:'DM Sans',sans-serif;font-size:13px;color:var(--tm);margin-bottom:4px}
+.wd{font-size:15px;color:var(--tl);margin-bottom:0}
+.bc{padding:24px;margin-bottom:14px;border-radius:8px;border:1px solid rgba(61,94,74,.08);background:var(--gm)}
+.bc:first-child{background:var(--mf);border-color:rgba(107,45,62,.1)}
+.bt{font-family:'DM Sans',sans-serif;font-size:11px;color:var(--g);text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+.bti{font-size:21px;font-weight:600;color:var(--m);margin:8px 0 2px;line-height:1.3}
+.bs{font-size:16px;font-style:italic;color:var(--tm);margin-bottom:10px}
+.bd{font-size:15px;color:var(--tl);line-height:1.65;margin-bottom:0}
+.ni2{display:flex;gap:12px;margin-bottom:10px;align-items:flex-start}
+.nd{color:var(--bd);font-size:18px;line-height:1;margin-top:3px}
+.ni2 p{font-size:17px;color:var(--tm);margin-bottom:0}
+.pn{width:28px;height:28px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600}
+.pn.pm{background:var(--mf);color:var(--m)}.pn.pg2{background:var(--gf);color:var(--g)}
+.cv-dl{display:inline-block;background:var(--gm);border:1px solid rgba(61,94,74,.1);border-radius:6px;padding:12px 20px;margin-top:8px;text-decoration:none;transition:background .3s}
+.cv-dl:hover{background:var(--gf)}
+.cv-dl span{font-family:'DM Sans',sans-serif;font-size:13px;color:var(--g)}
+footer{max-width:720px;margin:0 auto;padding:60px 28px 40px;border-top:1px solid var(--bd)}
+.fi{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:24px}
+footer .cl{font-family:'DM Sans',sans-serif;font-size:12px;color:var(--tl);text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}
+footer .cn{font-size:16px;color:var(--tm);margin-bottom:4px}
+footer .fc{font-size:15px;color:var(--g);font-style:italic;max-width:340px;line-height:1.5;text-align:right}
+footer .cp{font-family:'DM Sans',sans-serif;font-size:11px;color:var(--tl);margin-top:32px;text-align:center}
+</style>
+</head>
+<body>
+
+<nav id="nb">
+  <div class="ni">
+    <button class="nn" onclick="go('about')">Rujuta Karekar</button>
+    <div class="nl" id="nv"></div>
+    <button class="mt" id="mb" onclick="tm()">☰</button>
+  </div>
+  <div class="mm" id="mo"></div>
+</nav>
+
+<main>
+
+<!-- ═══════════════ ABOUT ═══════════════ -->
+<div class="pg" id="p-about">
+  <div class="lb">AI Governance · AI Safety · Mechanical Engineering</div>
+  <h1>Rujuta Karekar</h1>
+
+  <p>AI governance and safety researcher. Mechanical engineer by training. Focused on military AI governance, safety frameworks, and the structural gaps in how frontier AI is constrained.</p>
+
+  <div class="hb">
+    <p>I studied mechanical engineering and worked as an engineer. That's where I learned to think about how things actually break — not how they're supposed to work on a whiteboard.</p>
+  </div>
+
+  <p>The move to AI governance came from noticing that the hardest problems in this space are structural. Who controls deployment. Where oversight degrades. What happens when systems behave outside their design parameters. Engineering doesn't hand you the answers, but it gives you the right instincts for the questions.</p>
+
+  <div class="dv"></div>
+
+  <h2>Activities</h2>
+
+  <h3>Stop Killer Robots — Youth Network</h3>
+  <p class="mu">Meaningful human control over autonomous weapons. UNIDIR poster. UNSG recommendations. Digital colonialism blog. Youth advocacy toolkit. Humanitarian concerns report in progress.</p>
+
+  <h3>AI Safety Coordination Hub</h3>
+  <p class="mu">Co-founder. Building a coordination space for AI safety researchers and practitioners.</p>
+
+  <div class="dv"></div>
+
+  <p class="mu">Also: education volunteering across several organisations, and structured AI safety coursework (alignment, governance, AGI safety). Details on the CV.</p>
+
+  <p>I'm building a body of work at the intersection of engineering thinking and governance research. Interested in collaboration — and in being told where the framing is wrong.</p>
+
+  <div class="qb">
+    <p>When I'm not doing any of this, I write fiction — mostly romance, mostly for fun.</p>
+  </div>
+</div>
+
+<!-- ═══════════════ RESEARCH ═══════════════ -->
+<div class="pg" id="p-research">
+  <div class="lb">Research & Writing</div>
+  <h1>Research & Writing</h1>
+  <p class="mu">Frameworks, posters, policy inputs, and longer analytical writing.</p>
+
+  <h2>Open questions</h2>
+  <div class="qr"><span class="qm">?</span><p>What governance mechanisms apply when a company's deployment policy constrains military AI use more than international law does?</p></div>
+  <div class="qr"><span class="qm">?</span><p>Can red lines for AI systems be made concrete and measurable — not just aspirational?</p></div>
+  <div class="qr"><span class="qm">?</span><p>How does loss of control actually unfold — structurally, gradually, through institutional erosion?</p></div>
+  <div class="qr"><span class="qm">?</span><p>Beyond job displacement: what are we losing in literacy, camaraderie, and collective capacity?</p></div>
+
+  <div class="dv"></div>
+
+  <h2>Outputs & Presentations</h2>
+  <div class="wi"><span class="tg">Framework</span><p class="wt">RED30: 30 Indicators for AI Red Lines</p><p class="wc">Apart Research Technical Governance Hackathon</p><p class="wd">30 indicators, four severity tiers, grounded in international treaties. Interactive dashboard.</p></div>
+  <div class="wi"><span class="tg">Tool</span><p class="wt">AI Red Lines Tracker Dashboard</p><p class="wc">Interactive assessment tool</p><p class="wd">Evaluates AI systems against ethical and legal thresholds.</p></div>
+  <div class="wi"><span class="tg">Poster</span><p class="wt">Meaningful Human Control and AI in Military Use</p><p class="wc">UNIDIR Conference</p><p class="wd">Structural requirements for human control over autonomous weapons.</p></div>
+  <div class="wi"><span class="tg">Poster</span><p class="wt">Virtue Ethics Approaches to AI Safety</p><p class="wc">Tokyo AI Safety Conference 2025</p><p class="wd">Alignment-as-character vs alignment-as-constraint.</p></div>
+  <div class="wi"><span class="tg">Blog</span><p class="wt">Autonomous Systems as Digital Colonialism</p><p class="wc">Stop Killer Robots</p><p class="wd">Autonomous weapons development as a reproduction of colonial power asymmetry.</p></div>
+  <div class="wi"><span class="tg">Presentation</span><p class="wt">AI Red Lines Tracker and RED30 Demo</p><p class="wc">Apart Research Technical Governance Hackathon</p><p class="wd">Framework and dashboard demonstration.</p></div>
+  <div class="wi"><span class="tg">Report</span><p class="wt">Youth and Humanitarian Concerns with AI Weapons</p><p class="wc">Stop Killer Robots (in progress)</p><p class="wd">Youth perspectives on humanitarian implications of AI weapons development.</p></div>
+
+  <div style="margin-top:48px"></div>
+
+  <h2>Essays & Analysis</h2>
+
+  <div class="cb" style="margin-top:0">
+    <p style="margin-bottom:8px">Essays coming soon.</p>
+    <p style="margin-bottom:0;font-size:16px">In the meanwhile, <a href="https://substack.com/@rujutakarekar" target="_blank" rel="noopener" style="color:var(--g);text-decoration:underline">read here →</a></p>
+  </div>
+</div>
+
+<!-- ═══════════════ POLICY INTERESTS ═══════════════ -->
+<div class="pg" id="p-policy">
+  <div class="lb">Policy Interests</div>
+  <h1>Policy Interests</h1>
+  <p class="mu">Three areas that organise my research. Each represents a question I consider both important and insufficiently addressed.</p>
+
+  <div style="margin-top:32px">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px"><span class="pn pm">1</span><h3>Military AI Governance & Autonomous Weapons</h3></div>
+    <p class="mu" style="padding-left:40px">Who governs military AI when the companies building the models make deployment decisions that no treaty or procurement regulation accounts for? The civil-military distinction most frameworks rely on has already broken down. I work on this through research at Sentient Future and advocacy with Stop Killer Robots.</p>
+    <div class="tl" style="margin-left:40px"></div>
+  </div>
+
+  <div style="margin-top:24px">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px"><span class="pn pg2">2</span><h3>AI Safety Frameworks & Red Lines</h3></div>
+    <p class="mu" style="padding-left:40px">Governance standards mean nothing if they can't be operationalised. RED30 is my attempt to build concrete, measurable indicators grounded in international law. Separately, I'm researching virtue ethics as an alternative alignment paradigm with Prof Mizumoto.</p>
+    <div class="tl" style="margin-left:40px"></div>
+  </div>
+
+  <div style="margin-top:24px">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px"><span class="pn pm">3</span><h3>Loss of Control & Structural Risk</h3></div>
+    <p class="mu" style="padding-left:40px">Loss of control is a process, not an event. Institutional drift, compounding oversight failures, gradual erosion of human authority. My engineering training — thinking about cascading failures and system degradation — directly applies. This is the focus of my work at Sentient Future.</p>
+  </div>
+</div>
+
+<!-- ═══════════════ NOW ═══════════════ -->
+<div class="pg" id="p-now">
+  <div class="lb">Now</div>
+  <h1>Current Focus</h1>
+  <p class="sm" style="margin-bottom:36px">Last updated: April 2026</p>
+
+  <h2>Research</h2>
+  <div class="ni2"><span class="nd">·</span><p>AGI loss-of-control pathways at Sentient Future</p></div>
+  <div class="ni2"><span class="nd">·</span><p>Virtue ethics and AI safety with Prof Mizumoto</p></div>
+  <div class="ni2"><span class="nd">·</span><p>Developing RED30 into a more robust assessment tool</p></div>
+  <div class="ni2"><span class="nd">·</span><p>Gradual disempowerment — Effective Thesis Accelerator</p></div>
+  <div class="tl"></div>
+
+  <h2>Policy & Advocacy</h2>
+  <div class="ni2"><span class="nd">·</span><p>Youth advocacy toolkit for autonomous weapons — Stop Killer Robots</p></div>
+  <div class="ni2"><span class="nd">·</span><p>Humanitarian concerns report on AI weapons (in progress)</p></div>
+  <div class="tl"></div>
+
+  <h2>Community</h2>
+  <div class="ni2"><span class="nd">·</span><p>AI Safety Coordination Hub — co-founder</p></div>
+  <div class="tl"></div>
+
+  <h2 class="mr">Open to</h2>
+  <div class="ni2"><span class="nd">·</span><p>Research fellowships in AI governance and policy</p></div>
+  <div class="ni2"><span class="nd">·</span><p>RA roles at think tanks, labs, or policy organisations</p></div>
+  <div class="ni2"><span class="nd">·</span><p>Collaboration on military AI, autonomous weapons, or structural AI risk</p></div>
+
+  <a href="https://drive.google.com/uc?export=download&id=1qaT4sZAW6LUOHl1dD0pza_SbKzBkUUW0" class="cv-dl" style="margin-top:24px;display:inline-block" target="_blank" rel="noopener">
+    <span>↓ Download CV as PDF</span>
+  </a>
+
+  <div class="cb" style="margin-top:32px">
+    <p>I'm interested in working with people across governance, safety, and military AI. If there's overlap — or disagreement — reach out. → <u>email</u></p>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <div class="fi">
+    <div>
+      <p class="cl">Contact</p>
+      <p class="cn">rujutakarekar10@gmail.com</p>
+      <p class="cn">RSS</p>
+    </div>
+    <p class="fc">Open to research fellowships and collaboration in AI governance.</p>
+  </div>
+  <p class="cp">© 2026</p>
+</footer>
+
+<script>
+const P=['about','research','policy','now'];
+const L={about:'About',research:'Research',policy:'Policy Interests',now:'Now'};
+function go(id){
+  P.forEach(p=>{const e=document.getElementById('p-'+p);if(e)e.classList.toggle('on',p===id)});
+  document.querySelectorAll('.nl button,.mm button').forEach(b=>b.classList.toggle('a',b.dataset.p===id));
+  document.getElementById('mo').classList.remove('open');
+  document.getElementById('mb').textContent='☰';
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function tm(){const m=document.getElementById('mo'),b=document.getElementById('mb');m.classList.toggle('open');b.textContent=m.classList.contains('open')?'✕':'☰'}
+['nv','mo'].forEach(id=>{const c=document.getElementById(id);P.forEach(p=>{const b=document.createElement('button');b.textContent=L[p];b.dataset.p=p;b.onclick=()=>go(p);c.appendChild(b)})});
+window.addEventListener('scroll',()=>document.getElementById('nb').classList.toggle('scrolled',window.scrollY>30));
+go('about');
+</script>
+</body>
+</html>
